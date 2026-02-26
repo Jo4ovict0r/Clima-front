@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/7.0.1/css/all.min.css"
+      integrity="sha512-2SwdPD6INVrV/lHTZbO2nodKhrnDdJK9/kg2XD1r9uGqPo1cUbujc+IYdlYdEErWNu69gVcYgdxlmVmzTWnetw=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+    <link rel="stylesheet" href="style.css" />
+
+    <script type="module" src="./js/script.js"></script>
+    <title>Clima</title>
+  </head>
+
+  <!--<body class="flex justify-center items-center"> -->
+  <body> 
+    <!--<div class="container size-auto">-->
+      <div class="container">
+        <div class="pesquisa">
+        <input type="text" id="inp_cidade" />
+        <button id="btn"><i class="fa-solid fa-magnifying-glass"></i></button>
+      </div>        
+        <div class="descricao">
+          <h3 id="cidade"></h3>
+          <h4 id="status"></h4>
+        </div>
+        <div class="infos">
+          <div class="info" id="temperatura">
+            <h3>Temperatura:</h3><div><span id="temp"></span><span class="termometria"></span></div> <i class="fa-solid fa-cloud" style="color: rgba(250, 235, 215, 0.596);"></i>
+          </div>
+          <div class="info" id="temperatura_max">
+            <h3>Maxima:</h3><div><span id="temp_max"></span><span class="termometria"></span></div>
+          </div>
+          <div class="info" id="temperatura_min">
+            <h3>Minima:</h3><div> <span id="temp_min"></span><span class="termometria"></span></div>
+          </div>
+          <div class="info" id="container-umidade">
+            <h3>Umidade: </h3> <div><span id="umidade"></span>%</div>
+          </div>
+        </div>
+      </div>
+
+
+    <!--
+    <script src="https://cdn.tailwindcss.com"></script>
+    <script>
+      tailwind.config = {
+        theme: {
+          extend: {
+            colors: {
+              destaque: "#ff0077",
+            },
+          },
+        },
+      };
+    </script>-->
+  </body>
+</html>
