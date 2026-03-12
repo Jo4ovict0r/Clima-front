@@ -15,4 +15,4 @@ Projeto que mostra o clima de cidades com boa precisão
 
 <br>
 
-### Site: https://jo4ovict0r.github.io/Hora/
+### Site: https://jo4ovict0r.github.io/Clima-front/
