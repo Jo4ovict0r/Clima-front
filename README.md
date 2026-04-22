@@ -11,7 +11,7 @@ Projeto que mostra o clima de cidades com boa precisão
 
 <br>
 
-### Feito com a API do OpeWeather - https://docs.openweather.co.uk/api
+### Feito com a API do OpenWeather - https://docs.openweather.co.uk/api
 
 <br>
 
